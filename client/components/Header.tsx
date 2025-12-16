@@ -21,7 +21,7 @@ export function Header() {
 
                     {/* Desktop Navigation */}
                     <nav className="hidden md:flex items-center gap-10">
-                        {['Home', 'About Us', 'Programs', 'Contact'].map((item) => (
+                        {['Home', 'About', 'Programs', 'Contact'].map((item) => (
                             <Link
                                 key={item}
                                 href={item === 'Home' ? '/' : `/${item.toLowerCase().replace(' ', '-')}`}
